@@ -3,7 +3,7 @@ import requests
 
 app = Flask(__name__)
 
-ACCESS_TOKEN = "751464993858844862:iiCUxcPvkWhhyqeTFdDNsGpMIYXAxHFbdrYEVuqWqqVxEkwJmCXUmfuCBZXrnRhm "
+ACCESS_TOKEN = "751464993858844862:iiCUxcPvkWhhyqeTFdDNsGpMIYXAxHFbdrYEVuqWqqVxEkwJmCXUmfuCBZXrnRhm"
 
 def send_message(user_id, text):
     url = "https://openapi.zalo.me/v3.0/oa/message/cs"
